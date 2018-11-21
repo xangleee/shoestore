@@ -1,6 +1,7 @@
 body {
 	background-color:#e1eaea;
 }
+
 #fig-all {
 	background-color: white;
 }
@@ -127,58 +128,4 @@ footer {
 	padding-right: 20%;
 	padding-top: 20px;
 	padding-bottom: 20px;
-}
-/* Start of Page 2 */
-form {
-	background-color: white;
-	margin-left: 50px;
-	margin-right: 50px;
-}
-label {
-	font-weight: bold;
-}
-#last {
-	position: absolute;
-	margin-left: 300px;
-	margin-top: -40px;
-}
-.last {
-	position: absolute;
-	margin-left: 300px;
-	margin-top: -40px;
-}
-#pass2 {
-	position: absolute;
-	margin-left: 300px;
-	margin-top: -40px;
-}
-.pass2 {
-	position: absolute;
-	margin-left: 300px;
-	margin-top: -40px;
-}
-#state {
-	position: absolute;
-	margin-left: 300px;
-	margin-top: -22px;
-}
-.state {
-	position: absolute;
-	margin-left: 53px;
-	margin-top: -18px;
-}
-.zip {
-	position: absolute;
-	margin-left: 425px;
-	margin-top: -40px;
-}
-#zip {
-	position: absolute;
-	margin-left: 425px;
-	margin-top: -40px;
-}
-#country {
-	position: absolute;
-	margin-top: 11px;
-	margin-left: -65px;
 }
