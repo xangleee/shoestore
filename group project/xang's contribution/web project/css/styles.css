@@ -9,14 +9,22 @@ body {
 	margin-top: 3px;
 }
 /*Edit the whole top menu*/
+
 .topNav{
-	
 	 background-color: #ccccff;
 	 padding-top: 5px;
-	 margin-left: 50px;
-	 margin-right: 550px;
-	 width: 1230px;
+	 margin-left: 100px;
+	 margin-right: 100px;
+	 width: 1200px;
 	 height: 40px;
+}
+.topnav a {
+	text-align: center;
+	text-decoration: none;
+	background-color: #ccccff;
+	color: black;
+	margin-left: 15px;
+	float: right;
 }
 /*Edit the top menu button*/
 .dropbtn {
@@ -41,7 +49,7 @@ body {
     display: none;
     position: absolute;
     background-color: #ccccff;
-    min-width: 110px;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -63,73 +71,63 @@ body {
     background-color: #3e8e41;
 }
 /*End edit drop down menu*/
-/*Edit backgorund for the whole image place in the display*/
-#fig-all {
-	background-color: white;
-
-}
 /*Edit title*/
 .title {
 	font-size: 3.5em;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 10px
+	padding-left: 20px;
+	margin-top: -180px;
+}
+/*Edit backgorund for the whole image place in the display*/
+#fig-all {
+	background-color: white;
+	margin-right: 0px;
+	margin-left: 0px;
+
+
+}
+#fig-all h3{
+	margin-left: -40px;
+	margin-right: -50px;
+	padding-left: 20px;
 }
 /*Edit figure position*/
 figure {
-	
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-top: -50px;
 	padding-left: 40px;
 	padding-right: 50px;
 }
 /*Edit shoe image in figure*/
  img {
-	margin-top: -15px;
+ 	
+	margin-top: 5px;
 	margin-left: -50px;
 	margin-bottom: 180px;
 }
-/*Edit second menu*/
-.main-nav {
-	background-color: #ccccff;
-	padding-left: 30px;
-	padding-top: 6px;
-	padding-bottom: 6px;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: -30px;
+#display-shoe img{
+	margin-top: 50px;
+	width: 300px;
+	height: 200px;
+	margin-right: 140px;
 }
-.main-nav a {
-	text-decoration: none;
-	font-size: 1.25em;
-	padding-left: 30px;
-	color: black;
+/*descrpition of the shoe*/
+#description {
+	position: absolute;
+	margin-left: 400px;
+	margin-top: -470px;
+	width: 55%;
 }
-.topnav a {
-	text-align: center;
-	text-decoration: none;
-	background-color: #ccccff;
-	color: black;
-	margin-left: 15px;
-	float: right;
-}
-.background-nav {
-	background-color: #ccccff;
-	padding: 20px;
-	height: 25px;
-	margin-left: 50px;
-	margin-right: 50px;
-}
-/*End second menu*/
+
 /*Start the detail of the shoe*/
 #product-details {
 	position: absolute;
-	margin-left: 400px;
-	margin-top: -40px;
+	margin-left: 600px;
+	margin-top: -90px;
+	text-align: left;
 }
 #product-details h3 {
 	margin-top: -280px;
 	margin-bottom: 5px;
+	margin-left: 0px;
 }
 /*End prpoduct details*/
 
@@ -141,25 +139,18 @@ h3 {
 	font-size: 2em;
 }
 
-/*descrpition of the shoe*/
-#description {
-	position: absolute;
-	margin-left: 400px;
-	margin-top: -440px;
-	width: 55%;
-}
 
 /*Edit add button*/
 #button-box {
+
 	margin-right: 200px;
 	margin-left: 20px;
 
 }
 #button-box button {
-
 	width: 170px;
 	height: 35px;
-	margin-top: 160px;
+	margin-top: 120px;
 }
 
 
@@ -184,20 +175,29 @@ h3 {
 }
 /*End edit the add button*/
 /*Start edit the similiar product*/
-.sim-product {
+.sim-products {
 	background-color: white;
+	height:330px;
+
 }
 
-
+.sim-products h3{
+	margin-top: -130px;
+	margin-left: -40px;
+	margin-right: -50px;
+	padding-left: 20px;
+}
 .sim-products1 {
+
 	position: absolute;
 	margin-left: 40px;
 	margin-top: 10px;
 	padding: 10px;
 	background-color: white;
-	width: 130px;
+	width: 100px;
 }
 .sim-products1 img{
+
 	padding-left: 20px;
 	width: 200px;
 	height: 100px;
@@ -288,14 +288,44 @@ width: 140px;
 
 }
 /*end edit the add wish cart button*/
+/*Edit second menu*/
+.main-nav {
+	background-color: #ccccff;
+	 
+	margin-left: 100px;
+	margin-right:35px;
+	margin-top: 775px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 450px;
+
+}
+.main-nav a {
+	 cursor: pointer;
+	text-decoration: none;
+	font-size: 1.25em;
+	color: black;
+	border: 1px solid yellow;
+
+}
+
+
+.main-nav a:hover{
+
+	background-color: white;
+	
+}
+.background-nav {
+	background-color: white;
+	padding: 20px;
+	height: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/*End second menu*/
 /*edit the copyright*/
-footer {
-	position: relative;
-	margin-top: 400px;
+#credit p {
 	text-align: center;
 	color: black;
-	padding-left: 20%;
-	padding-right: 20%;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
