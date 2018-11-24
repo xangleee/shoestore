@@ -1,12 +1,14 @@
 body {
 	background-color:#e1eaea;
 }
+/*Edit the logo image (shoe image in the top menu*/
 .topNav img{
 	width: 90px;
 	height: 30px;
 	padding-left: 60px;
 	margin-top: 3px;
 }
+/*Edit the whole top menu*/
 .topNav{
 	
 	 background-color: #ccccff;
@@ -16,7 +18,7 @@ body {
 	 width: 1230px;
 	 height: 40px;
 }
-
+/*Edit the top menu button*/
 .dropbtn {
     background-color: #ccccff;
     color: black;
@@ -27,7 +29,7 @@ body {
     cursor: pointer;
 
 }
-
+/*Edit drop down menu in the top menu*/
 .dropdown {
 	margin-right: 20px;
 	float: right;
@@ -60,20 +62,20 @@ body {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-
+/*End edit drop down menu*/
+/*Edit backgorund for the whole image place in the display*/
 #fig-all {
 	background-color: white;
 
 }
+/*Edit title*/
 .title {
 	font-size: 3.5em;
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 10px
 }
-.topnav {
-	background-color: black;
-}
+/*Edit figure position*/
 figure {
 	
 	margin-left: 50px;
@@ -81,11 +83,13 @@ figure {
 	padding-left: 40px;
 	padding-right: 50px;
 }
+/*Edit shoe image in figure*/
  img {
 	margin-top: -15px;
 	margin-left: -50px;
 	margin-bottom: 180px;
 }
+/*Edit second menu*/
 .main-nav {
 	background-color: #ccccff;
 	padding-left: 30px;
@@ -116,6 +120,8 @@ figure {
 	margin-left: 50px;
 	margin-right: 50px;
 }
+/*End second menu*/
+/*Start the detail of the shoe*/
 #product-details {
 	position: absolute;
 	margin-left: 400px;
@@ -125,18 +131,25 @@ figure {
 	margin-top: -280px;
 	margin-bottom: 5px;
 }
+/*End prpoduct details*/
+
+/*Edit subtitle*/
 h3 {
 
 	margin-top: -15px;
 	border-bottom: 2px solid gray;
 	font-size: 2em;
 }
+
+/*descrpition of the shoe*/
 #description {
 	position: absolute;
 	margin-left: 400px;
 	margin-top: -440px;
 	width: 55%;
 }
+
+/*Edit add button*/
 #button-box {
 	margin-right: 200px;
 	margin-left: 20px;
@@ -148,6 +161,9 @@ h3 {
 	height: 35px;
 	margin-top: 160px;
 }
+
+
+
 .desciption-button1 {
 	font-size: 15px;
 	color: blue;
@@ -166,6 +182,8 @@ h3 {
 	text-decoration: none;
 	font-weight: bolder;
 }
+/*End edit the add button*/
+/*Start edit the similiar product*/
 .sim-product {
 	background-color: white;
 }
@@ -247,6 +265,8 @@ h3 {
 
 	margin-top: -150px;
 }
+/*End edit similar product*/
+/*start edit the add wish cart button*/
 .product-button1 {
 margin-top: -130px;
 width: 140px;
@@ -267,7 +287,8 @@ margin-top: -130px;
 width: 140px;
 
 }
-
+/*end edit the add wish cart button*/
+/*edit the copyright*/
 footer {
 	position: relative;
 	margin-top: 400px;
