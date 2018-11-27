@@ -1,41 +1,41 @@
-var attempt = 3; // Variable to count number of attempts.
+
+
 // Below function Executes on click of login button.
 function validate(){
 var username = document.getElementById("user").value;
 var password = document.getElementById("pass").value;
-
+//validate if for user and pass input
 if(username == "" || password ==""){
 	alert("Please enter in Username and Password");
 	return;
 }
 
+//get user and pass from local storage and compare with user input
+var AList = JSON.parse(window.localStorage.getItem("accountList"));
 
-var AList = JSON.parse(window.localStorage.getItem("Account"));
-
-for ( var i in sList) {
+//loop to get user and pass from local storage
+for ( var i in AList) {
 		var t = AList[i].split(",");
-		user = (t[4]);
-		pass = (t[5]);
+		user = (t[3]);
+		pass = (t[4]);
+		//compare user and pass from local to user input
 		if ( username == user && password == pass){
-		window.alert("Login successfully");
-		window.location = "success.html"; // Redirecting to other page.
+		window.alert(user +" successful login");
+		 // Redirecting to other page.
+		window.location.src="../xang's contribution/web project/pageOne.html";
 		return false;
 			}
-			else{
-		attempt --;// Decrementing by one.
-		alert("You have left "+ attempt +" attempt;");
-		// Disabling fields after 3 attempts.
+		else{
+		//stated if pass and user doesn't match the local storage
+		alert("You have enter wrong password or username");
+
+		// Disabling fields after wrong input for username and password.
 		if( attempt == 0){
-			document.getElementById("username").disabled = true;
-			document.getElementById("password").disabled = true;
+			document.getElementById("user").disabled = true;
+			document.getElementById("pass").disabled = true;
 			document.getElementById("submit").disabled = true;
 			return false;
 }
 }
 }	
 	}
-
-/*
-
-
-*/
