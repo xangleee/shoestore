@@ -23,12 +23,25 @@ if (userInput.slice(0,1) == "_" || userInput.slice(0,1) =="@"|| str.match(/[0-9]
 	alert("should not star with _, @, and Number");
 	return
 };
+
 	var person= "First Name: " + firstInput +","
 				+ " Last Name: " + lastInput + ","
 				+ " Email: "+ emailInput + ","
 				+ " UserName: "+ userInput + ","
 				+ " PassWord: " + passInput;
     
-    persons.push(person);
-	window.localStorage.setItem("Account",JSON.stringify(persons));
+   persons.push(person);
+
+
+	var storage = window.localStorage.getItem("accountList");
+    if ( storage !=null && storage.length>0){
+      var arr = JSON.parse(storage);
+      arr.push(persons[0]);
+
+      window.localStorage.setItem("accountList", JSON.stringify(arr));
+
+    }else{
+     	window.localStorage.setItem("accountList",JSON.stringify(persons));
+}
+
 }
