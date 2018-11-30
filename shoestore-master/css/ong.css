@@ -1,0 +1,219 @@
+/*Sign up format*/
+.body-container{
+	background-color:  #e1eaea;
+}
+.main-wrapper {
+	background-color: #e1eaea;
+	position: relative;
+
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-bottom: 180px;
+	margin-bottom: 20px;
+	
+}
+
+.main-wrapper h2{
+	background-color: #e1eaea;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 2px;
+	padding: 100px 10px 10px 10px
+
+}
+.main-wrapper img{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	left: 500px;
+
+}
+.main-wrapper form{
+background-color: #e1eaea;
+text-align: center;
+padding-bottom: 40px;
+margin-bottom: 10px;
+
+}
+.main-wrapper input{
+	font-size: 15px;
+	margin-top: 10px;
+	width: 400px;
+	height: 30px;
+	text-align: center;
+
+}
+.main-wrapper button{
+background-color: #e6e6ff;
+margin-top: 10px;
+width: 100px;
+height: 30px;
+}
+.main-wrapper  p{
+	position: absolute;
+	bottom: -40px;
+	text-align: center;
+	font-size: 15px;
+	padding-left: 430px;
+	padding-right: 50px;
+}
+
+/*Format the checkout in page*/
+.title {
+	text-align: center;
+	background-color: #e1eaea;
+	border-bottom: 2px solid #6666ff;
+
+}
+.title a {
+	margin-left: -800px;
+	background-color: #ccccff;
+	text-decoration: none;
+	color: black;
+	border: 1px solid #e6e6ff;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.signup-form a{
+  color: black;
+  text-decoration: none;
+}
+.login-form a {
+   color: black;
+  text-decoration: none;
+}
+#submit{
+border: 1px solid gray;
+	margin-top: 420px;
+	background-color: #e6f7ff;
+
+	float: right;
+	width: 100px;
+	height: 30px;
+	font-size: 10px;
+
+}
+div.title {
+
+  margin: auto;
+  max-width: 890px;
+  padding:5px;
+  width: 100%;
+
+}
+
+.title h1 {
+   color: black;
+   font-size: 26px;
+   font-weight: bold;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-transform:uppercase;
+}
+
+
+/*** Table Styles for Checkput page **/
+
+.table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  max-width: 900px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+th {
+
+  color: black;
+  background: #e6e6ff;
+  border-bottom:4px solid #6666ff;
+  border-right: 1px solid #6666ff;
+  font-size:20px;
+  font-weight: 400;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+tr {
+  border-top: 1px solid #6666ff;
+  border-bottom-: 1px solid #6666ff;
+  color:black;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+tr:last-child {
+  border-bottom:none;
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background: #e1eaea;
+  padding:10px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #6666ff;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+tr.totals td {
+    background:#e6e6ff;
+    text-align: right;
+}
+
+td.right {
+  text-align: right;
+}
+td.center {
+  text-align: center;
+}
+/*Edit checkout.html*/
+.container {
+  text-align: left;
+  padding-left: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #e1eaea;
+}#submit{
+  margin-top: 10px;
+  background-color: #e1eaea;
+  float: left;
+}
+.container h1{
+  background-color: #e1eaea;
+  text-align: center;
+}
+
+/*End Ong css style*/
+
