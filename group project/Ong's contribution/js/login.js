@@ -20,9 +20,15 @@ for ( var i in AList) {
 		pass = (t[4]);
 		//compare user and pass from local to user input
 		if ( username == user && password == pass){
-		window.alert(user +" successful login");
-		 // Redirecting to other page.
-		window.location.src="../xang's contribution/web project/pageOne.html";
+		
+			//close the login page when user and password match with localstorage pass and user
+		 window.close("login.html");
+			//tell user that they successful login
+		 window.alert(user +" successful login");
+			 // Redirecting to other page.
+		window.open("home.html");
+		
+
 		return false;
 			}
 		else{
