@@ -3,14 +3,14 @@ function getaccount(){
 	persons=[];
  	firstInput = document.getElementById("first").value;
 	lastInput = document.getElementById("last").value;
-	emailInput = document.getElementById("email").value;	
+	emailInput = document.getElementById("email").value;
 	userInput = document.getElementById("user").value;
 	passInput = document.getElementById("pass").value;
 
-if(userInput == "" || passInput==""|| 
+if(userInput == "" || passInput==""||
 	lastInput==""  || emailInput == "" ||
 	firstInput=="" ){
-	alert("Please enter in the blank field");
+	alert("Please fill out everything!");
 	return;
 }
 if(passInput.length<6 || passInput.length>12){
@@ -29,7 +29,7 @@ if (userInput.slice(0,1) == "_" || userInput.slice(0,1) =="@"|| str.match(/[0-9]
 				+ emailInput + ","
 				+ userInput + ","
 				+ passInput;
-    
+
    persons.push(person);
 
 
@@ -37,7 +37,7 @@ if (userInput.slice(0,1) == "_" || userInput.slice(0,1) =="@"|| str.match(/[0-9]
     if ( storage !=null && storage.length>0){
       var arr = JSON.parse(storage);
       arr.push(persons[0]);
-      
+
       window.localStorage.setItem("accountList", JSON.stringify(arr));
 
     }else{
