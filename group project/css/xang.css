@@ -1,8 +1,20 @@
 
 /*Start Xang css style*/
 body {
-	background-color:#e1eaea;
+	background-color:white;
 	
+}
+
+#filter{
+	border: 1px solid gray;
+	margin-top: -150px;
+	width: 130px;
+	height: 1180px;
+	margin-left: 0px;
+	background-color: #e1eaea;
+}
+#filter h1{
+	text-align: center;
 }
 /*Edit the logo image (shoe image in the top menu*/
 .topNav img{
@@ -14,7 +26,7 @@ body {
 /*Edit the whole top menu*/
 
 .topNav{
-	 background-color: #ccccff;
+	 background-color: #e1eaea;
 	 padding-top: 5px;
 	 margin-left: 100px;
 	 margin-right: 100px;
@@ -24,14 +36,14 @@ body {
 .topnav a {
 	text-align: center;
 	text-decoration: none;
-	background-color: #ccccff;
+	background-color: #e1eaea;
 	color: black;
 	margin-left: 15px;
 	float: right;
 }
 /*Edit the top menu button*/
 .dropbtn {
-    background-color: #ccccff;
+    background-color: #e1eaea;
     color: black;
     font-weight: bold;
     padding: 10px;
@@ -55,7 +67,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ccccff;
+    background-color: #e1eaea;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -113,6 +125,7 @@ figure {
 	margin-bottom: 180px;
 }
 #display-shoe img{
+	
 	margin-top: 50px;
 	width: 300px;
 	height: 200px;
@@ -198,13 +211,14 @@ h3 {
 .sim-products1 {
 
 	position: absolute;
-	margin-left: 40px;
+	margin-left: 10px;
 	margin-top: 10px;
 	padding: 10px;
 	background-color: white;
-	width: 100px;
+	width: 240px;
+	height: 80px;
 }
-.sim-products1 img{
+.sim-products1 input{
 
 	padding-left: 20px;
 	width: 200px;
@@ -213,37 +227,39 @@ h3 {
 
 .sim-products1 a {
 	position: absolute;
-
-	margin-top: -150px;
+margin-left: 30px;
+	margin-top: -25px;
 }
 .sim-products2 {
 	position: absolute;
-	margin-left: 330px;
+	margin-left: 280px;
 	margin-top: 5px;
 	padding: 10px;
 	background-color: white;
-	width: 150px;
+	width: 240px;
+	height: 80px;
 }
-.sim-products2 img{
-	padding-left: 20px;
+.sim-products2 input{
+	padding-left: 5px;
 	width: 200px;
 	height: 100px;
 }
 
 .sim-products2  a {
 	position: absolute;
-
-	margin-top: -150px;
+margin-left: 60px;
+	margin-top: -20px;
 }
 .sim-products3 {
 	position: absolute;
-	margin-left: 600px;
+	margin-left: 560px;
 	margin-top: -20px;
 	padding: 10px;
 	background-color: white;
-	width: 150px;
+	width: 240px;
+	height: 80px;
 }
-.sim-products3 img{
+.sim-products3 input{
 	padding-left: 20px;
 	width: 200px;
 	height: 100px;
@@ -253,18 +269,20 @@ h3 {
 
 .sim-products3 a {
 	position: absolute;
-
-	margin-top: -150px;
+	margin-left: 30px;
+	margin-top: -25px;
 }
 .sim-products4 {
+	
 	position: absolute;
-	margin-left: 900px;
+	margin-left: 830px;
 	margin-top: 20px;
 	padding: 10px;
 	background-color: white;
-	width: 150px;
+	width: 270px;
+	height: 80px;
 }
-.sim-products4 img{
+.sim-products4 input{
 	padding-left: 20px;
 	margin-top: -10px;
 	width: 200px;
@@ -273,29 +291,33 @@ h3 {
 
 .sim-products4 a {
 	position: absolute;
-
-	margin-top: -150px;
+margin-left: 30px;
+	margin-top: -25px;
 }
 /*End edit similar product*/
 /*start edit the add wish cart button*/
 .product-button1 {
-margin-top: -130px;
+	margin-left: 40px;
+margin-top: -5px;
 width: 140px;
 
 }
 .product-button2 {
-margin-top: -150px;
+margin-left: 60px;
+margin-top: -20px;
 width: 140px;
 
 }
 .product-button3 {
-margin-top: -130px;
+	margin-left: 60px;
+margin-top: -5px;
 width: 140px;
 
 }
 .product-button4 {
-margin-top: -130px;
-width: 140px;
+	margin-left: 60px;
+margin-top: -10px;
+width: 180px;
 
 }
 /*end edit the add wish cart button*/
@@ -322,14 +344,15 @@ width: 140px;
 	float: left;
 	width: 150px;
 	height: 30px;
-	margin-left: 300px;
+	margin-left: 450px;
 	font-size: 10px;
-	text-align: left;
+	text-align: center;
 	cursor: pointer;
 	background-color: #ccccff;
 	
 }
 .main-nav a {
+	font-weight: bold;
 	text-decoration: none;
 	font-size: 1.25em;
 	color: black;
@@ -352,25 +375,25 @@ width: 140px;
 
 /*modify the image layout on menShoe.html*/
 .men-img{
-	background-color: white;
-	margin-left: 100px;
+	 background-color: white;
+	margin-left: 300px;
 	margin-right: 34px;
 	padding-left: 100px;
 
 }
 .men-img img{
-	
-	border-top:  1px solid gray;
-	border-left:  1px solid gray;
-	border-right:  1px solid gray;
+
+	border-top:  3px solid #e1eaea;
+	border-left:  3px solid #e1eaea;
+	border-right:  3px solid #e1eaea;
 	margin-top: 20px;
 	margin-left: -50px;
 	margin-bottom: 20px;
 }
 .men-img p {
-	border-bottom:  1px solid gray;
-	border-left:  1px solid gray;
-	border-right:  1px solid gray;
+	border-bottom:  3px solid #e1eaea;
+	border-left:  3px solid #e1eaea;
+	border-right:  3px solid #e1eaea;
 	margin-left: -50px;
 	margin-top: -20px;
 	float: left;
