@@ -1,0 +1,17 @@
+add a homepage.
+	?? What to add ??
+	Add category of shoe(?)
+	
+	FAT ENTER BUTTON
+	
+add About Us
+	about the shoe store.
+	how to contact us.
+	
+Move nav bar to bottom.
+
+top-nav should be a click down menu.
+
+Shopping cart.
+	loop(?)
+
