@@ -2,29 +2,29 @@
  * Start modify the image layout on Home.html*
  ******title1******************************************/
  h1{
- 		font-size: 40px;
- 		margin-bottom: 100px;
- 		margin-top: -170px;
- 		border-bottom: 2px solid #e1eaea;
+ 		font-size: 40%;
+ 		margin-bottom: 100%;
+ 		margin-top: -170%;
+ 		border-bottom: 2% solid #e1eaea;
  }
  .background img{
- 	margin-top:60px;
- 	margin-left: 100px;
- 	margin-right: 100px;
- 	width: 500px;
+ 	margin-top:60%;
+ 	margin-left: 100%;
+ 	margin-right: 100%;
+ 	width: 500%;
  }
   .background p {
   	float: right;
-  	width: 500px;
-  	margin-top:-370px;
-  	margin-right:200px; 
+  	width: 500%;
+  	margin-top:-370%;
+  	margin-right:200%; 
   }
   .seller{
   }
  .seller h3{
- 	border-bottom: 2px solid #e1eaea;
- 	margin-left: 100px;
- 	margin-right: 30px;
+ 	border-bottom: 2%solid #e1eaea;
+ 	margin-left: 100%;
+ 	margin-right: 30%;
  }
  .seller .seller-table{
  	background-color:  #e1eaea;
