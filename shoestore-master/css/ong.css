@@ -1,3 +1,38 @@
+/*Edit sign in page*/
+.body-container{
+   background-color: #e1eaea;
+}
+
+.main-wrapper img{
+  width: 20%;
+  margin-left: 42%;
+  margin-top: 10%;
+}
+.main-wrapper h2{
+  font-size: 50px;
+   margin-left: 45%;
+  margin-top: 0%;
+}
+.main-wrapper button{
+  margin-top: 2%;
+  width: 10%;
+  height: 5%;
+}
+.main-wrapper a{
+  color: black;
+text-decoration: none;
+
+}
+.main-wrapper form{
+    margin-top: -3%;
+  margin-left: 42%;
+}
+.main-wrapper input{
+
+  width: 30%;
+  height: 6%;
+}
+
 /*Edit checkout.html*/
 .container {
   text-align: left;
@@ -13,7 +48,6 @@
   margin-left: 5%;
   padding-bottom: 3%;
    margin-right: 5%;
- border: 1px solid red;
    width: 90%;
   background-color: #e1eaea;
 }

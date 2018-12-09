@@ -168,8 +168,47 @@ background-color:  #e1eaea;
  	margin-right: 43%;
  	margin-top: -10%;
  }
+.titles{
+	font-size: 40px;
+	margin-top: 4%;
 
+}
+#fig-all h3{
+	margin-top: 30%;
+ font-size: 30px;
+	
+}
+#fig-all p{
+	margin-left: 5%;
+}
+#description p{
+	margin-top: -20%;
+	float: right;
+	width: 70%;
+}
+#description #prices{
+	margin-top: -15%;
+	
+}
 
+#button-box{
+	margin-top: -4%;
+	margin-right: 30%;
+	float: right;
+	width: 40%;
+	height: 20%;
+}
+#product-details{
+	margin-top: -14%;
+	margin-left: 30%;
+	width: 20%;
+}
+#product-details table{
+	margin-top: -12%;
+}
+.sim-products{
+	margin-top: 10%;
+}
 /*bottom menu*/
 .main-nav {
 	margin-top: 0%;
