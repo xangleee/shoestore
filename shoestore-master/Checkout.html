@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Checkout</title>
+   <link rel="stylesheet" type="text/css" href="css/xang.css">
   <link rel="stylesheet" type="text/css" href="css/ong.css">
 </head>
 <body>
@@ -40,8 +41,8 @@
     </div>
 <div class="row">
   <div class="col-75">
-    <div class="container">
-      <form action="#" method="#">
+    <div class="container1">
+      <form class="in-container"action="#" method="#">
       
         <div class="row">
           <div class="col-50">
@@ -69,10 +70,10 @@
             <label for="fname">Accepted Cards</label>
             <div class="icon-container">
               <form method='#' action='#'> 
-               <input type="checkbox"><label>Amex Card</label>
-               <input type="checkbox"><label>Discover Card</label>
-               <input type="checkbox"  ><label>Master Card</label>
-               <input type="checkbox" ><label>Visa Card</label>
+               <label>Amex Card</label><input type="checkbox">
+               <label>Discover Card</label><input type="checkbox">
+              <label>Master Card</label> <input type="checkbox"  >
+               <label>Visa Card</label><input type="checkbox" >
              
                </form>
             </div>
@@ -95,11 +96,15 @@
           </div>
           
         </div>
-        <label>
-          <input type="checkbox" name="sameadr"> Shipping address same as billing
+        <div class="btn">
+        <label >
+          <input   type="checkbox" name="sameadr"> Shipping address same as billing
         </label>
+
         <br>
        <button id = "submit" type="submit" name="submit"><a href="home.html">Check out</a>
+       </button>
+       </div>
       </form>
     </div>
   </div>
