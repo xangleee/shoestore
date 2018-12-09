@@ -1,209 +1,141 @@
-/************************************************
- * Start modify the image layout on Home.html*
- ******title1******************************************/
- h1{
- 		font-size: 40%;
- 		margin-bottom: 100%;
- 		margin-top: -170%;
- 		border-bottom: 2% solid #e1eaea;
- }
- .background img{
- 	margin-top:60%;
- 	margin-left: 100%;
- 	margin-right: 100%;
- 	width: 500%;
- }
-  .background p {
-  	float: right;
-  	width: 500%;
-  	margin-top:-370%;
-  	margin-right:200%; 
-  }
-  .seller{
-  }
- .seller h3{
- 	border-bottom: 2%solid #e1eaea;
- 	margin-left: 100%;
- 	margin-right: 30%;
- }
- .seller .seller-table{
- 	background-color:  #e1eaea;
- 	margin-top:60%;
- 	margin-left: 100%;
- 	margin-right: 100%;
- 	margin-bottom: -730%;
- 	width: 1100%;
- 	height: 500%;
- }
- .seller .seller-table td{
+/*Edit top  men and women shoes html */
+#filter{
+	
+	margin-top: -1%;
+	width: 15%;
+	height: 2990%;
+	margin-left: 0%;
+	background-color: #ccccff;
+}
+#filter h1{
+	border: 1px solid #ccccff ;
+	text-align: center;
+}
+#filter .box{
+	margin-left: 5%;
+	margin-top: 10%;
+}
 
- 	border: 2px solid white;
- 	margin-bottom: 100%;
- 	height: 100%;
- }
-  .seller .seller-table a{
-  	text-decoration: none;
-  }
- .seller .seller-table img{
- 	margin-left: 100%;
- 	margin-top: 100%;
- 	width: 300%;
-
- }
-
- .seller .seller-table #price{
- 	float: right;
- 	font-size: 15%;
- 	margin-right: 200%;
- 	margin-top: -310%;
- }
- .seller .seller-table p{
- 	float: right;
-
- 	font-size: 20%;
- 	padding-bottom: 10%;
- 	margin-right: 200%;
- 	margin-top: 150%;
- }
-  .seller .seller-table button{
- 	float: right;
- 	font-size: 15%;
- 	margin-right: 200%;
- 	margin-top: -280%;
- }
-/*********************************************
- *End modify the image layout on Home.html*
- *********************************************/
-
-/*****************************************
- *modify the image layout on menShoe.html*
- *****************************************/
 .men-img{
+	
 	 background-color: white;
-
-	margin-left: 240%;
-	margin-right: 34%;
-	padding-left: 50%;
+	margin-left: 20%;
+	margin-right: 5%;
 
 }
-.men-img img{
-	margin-top: 40%;
-	margin-left: 10%;
-	margin-bottom: 20%;
-	float: left;
-	width: 230%;
-	height: 150%;
-}
+
 .men-img a{
 	text-decoration: none;
 	color: black;
 }
 .men-img button{
 
-	margin-top: -30%;
-	margin-left: 100%;
+	margin-top: 0%;
+	margin-left: 30%;
 }
 .men-img p {
-	margin-left: 10%;
-	margin-top: -20%;
+	margin-left: 0%;
+	margin-top: 0%;
 	margin-bottom: 0%;
 	float: left;
-	width: 230%;
-	height: 60%;
+	width: 100%;
+	height: 20%;
 	text-align: center;
 }
+
 #product1{
-	border:  3% solid #e1eaea;
-	margin-top: 20%;
-	font-size: 15%;
+	border:  3px solid #e1eaea;
+	margin-top: 5%;
+	font-size: 15px;
 
 }
 #product2{
-	border:  3% solid #e1eaea;
-	margin-top: 20%;
-	font-size: 15%;
+	border:  3px solid #e1eaea;
+	margin-top: 5%;
+	font-size: 15px;
 
 }
 #product3{
-	border:  3% solid #e1eaea;
-	margin-top: 20%;
-	font-size: 15%;
+	border:  3px solid #e1eaea;
+	margin-top: 5%;
+	font-size: 15px;
 
 }
 #product4{
-	border:  3% solid #e1eaea;
-	margin-top: 20%;
-	font-size: 15%;
+	border:  3px solid #e1eaea;
+	margin-top: 5%;
+	font-size: 15px;
 
 }
 
 #product5{
 	border:  3px solid #e1eaea;
-	margin-top: 20px;
+	margin-top: 2%;
 font-size: 15px;
 }
 #product6{
 	border:  3px solid #e1eaea;
-	margin-top: 20px;
+	margin-top:2%;
 	font-size: 15px;
 
 }
 #product7{
 	border:  3px solid #e1eaea;
-	margin-top: 20px;
+	margin-top:2%;
+	font-size: 15px;
 
 }
 #product8{
 	border:  3px solid #e1eaea;
-	margin-top: 20px;
+	margin-top:2%;
 	font-size: 15px;
 
 }
 #product9{
 	border:  3px solid #e1eaea;
-	margin-top: 20px;
+	margin-top:2%;
 	font-size: 15px;
-
 }
 #product10{
 	border:  3px solid #e1eaea;
-	margin-top: 20px;
+	margin-top:2%;
 	font-size: 15px;
 
 }
 #product11{
 	border:  3px solid #e1eaea;
-	margin-top: 20px;
+	margin-top:2%;
 	font-size: 15px;
 
 }
 #product12{
 	border:  3px solid #e1eaea;
-	margin-top: 20px;
+	margin-top:2%;
 	font-size: 15px;
 
 }
 
 #product13{
 	border:  3px solid #e1eaea;
-	margin-top: 20px;
+	margin-top:2%;
 	font-size: 15px;
 
 }
 #product13 p{
-	margin-top: .5px;
+	margin-top: .5%;
 }
 #product14{
 	border:  3px solid #e1eaea;
-	margin-top: 20px;
+	margin-top:2%;
+	font-size: 15px;
 
 }
 #product14 p{
-	margin-top: .5px;
+	margin-top: .5%;
 }
 #product15{
 	border:  3px solid #e1eaea;
-	margin-top: 20px;
+	margin-top:2%;
 	font-size: 15px;
 
 }
@@ -212,10 +144,10 @@ font-size: 15px;
 }
 #product16{
 	border:  3px solid #e1eaea;
-	margin-top: 20px;
+	margin-top:2%;
 	font-size: 15px;
 
 }
 #product16 p{
-	margin-top: .5px;
+	margin-top: .5%;
 }
