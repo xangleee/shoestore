@@ -9,11 +9,14 @@
 }
 #filter h1{
 	border: 1px solid #ccccff ;
+
 	text-align: center;
 }
-#filter .box{
-	margin-left: 5%;
-	margin-top: 10%;
+#filter input{
+	border: 1px solid #ccccff;
+
+	margin-left: 30%;
+	margin-top: 5%;
 }
 
 .men-img{
