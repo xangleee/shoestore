@@ -9,8 +9,6 @@
     <img src="image/shoes.png">
     <div class="dropdown"><button class="dropbtn"><a href="pageOne.html" >logout</a></button>
       </div>
-    <div class="dropdown"><button class="dropbtn"><a href="sales.html" >Sales</a></button>
-      </div>
       
 
    <div class="dropdown">
@@ -24,7 +22,6 @@
       <div class="dropdown-content">
       <a href="WishList.html">Wish List</a>
       <a href="Checkout.html">Check Out</a>
-      <a href="ShoppingCart.html">Shopping Cart</a>
       <a href="order.html">View Order</a>
     </div>
     </div>
@@ -34,10 +31,10 @@
    <div class="container">
     <h1 id="check">Check Out</h1>
       <h4>Cart <span class="price" style="color:black"><i class="checkout"></i> <b>4</b></span></h4>
-      <p><a href="#">Product 1</a> <span class="price">Product Amount</span></p>
-      <p><a href="#">Product 2</a> <span class="price">Product Amount</span></p>
-      <p><a href="#">Product 3</a> <span class="price">Product Amount</span></p>
-      <p><a href="#">Product 4</a> <span class="price">Product Amount</span></p>
+      <p id="product1"><a href="#">Product 1</a> <span class="price">Product Amount</span></p>
+      <p id="product2"><a href="#">Product 2</a> <span class="price">Product Amount</span></p>
+      <p id="product3"><a href="#">Product 3</a> <span class="price">Product Amount</span></p>
+      <p id="product4"><a href="#">Product 4</a> <span class="price">Product Amount</span></p>
       <hr>
       <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
     </div>
@@ -71,11 +68,11 @@
             <h3>Payment</h3>
             <label for="fname">Accepted Cards</label>
             <div class="icon-container">
-              <form method='#' action='#'>
-              <input type="image" src="image/Amex.png" width="50" height="50" alt="Amex Card">
-             <input type="image" src="image/Discover.png" width="50" height="50" alt="Discover Card">
-              <input type="image" src="image/Mastercard.png" width="50" height="50" alt="Master Card"> 
-               <input type="image" src="image/Visa.jpeg" width="50" height="50" alt="Visa Card">
+              <form method='#' action='#'> 
+               <input type="checkbox"><label>Amex Card</label>
+               <input type="checkbox"><label>Discover Card</label>
+               <input type="checkbox"  ><label>Master Card</label>
+               <input type="checkbox" ><label>Visa Card</label>
              
                </form>
             </div>
@@ -99,7 +96,7 @@
           
         </div>
         <label>
-          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+          <input type="checkbox" name="sameadr"> Shipping address same as billing
         </label>
         <br>
        <button id = "submit" type="submit" name="submit"><a href="home.html">Check out</a>
