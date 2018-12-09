@@ -23,9 +23,10 @@ for ( var i in AList) {
 		
 		 // Redirecting to other page.
 		 window.close("login.html");
-		 window.alert(user +" successful login");
+		var account = user +" successful login";
+		alert(account);
 		window.open("home.html");
-		
+			
 
 		return false;
 			}

@@ -1,6 +1,86 @@
+
+/*Start edit the whole top menu for checkout*/
+.topNav img{
+  width: 90px;
+  height: 30px;
+  padding-left: 60px;
+  margin-top: 3px;
+}
+/*Edit the whole top menu*/
+
+.topNav{
+   background-color: #e1eaea;
+   padding-top: 5px;
+   margin-left: 100px;
+   margin-right: 100px;
+   width: 1200px;
+   height: 40px;
+}
+.topnav a {
+  text-align: center;
+  text-decoration: none;
+ background-color: #e1eaea;
+  color: black;
+  margin-left: 15px;
+  float: right;
+}
+/*Edit the top menu button*/
+.dropbtn {
+    background-color: #e1eaea;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-size:15px;
+    border: none;
+    cursor: pointer;
+
+}
+/*Edit drop down menu in the top menu*/
+.dropdown {
+  margin-right: 20px;
+  float: right;
+    position: relative;
+    display: inline-block;
+}
+.dropdown a{
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e1eaea;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/*End edit the whole top menu for checkout*/
+
 /*Sign up format*/
+body{
+   padding-bottom: 50px;
+}
 .body-container{
 	background-color:  #e1eaea;
+
 }
 .main-wrapper {
 	background-color: #e1eaea;
@@ -87,12 +167,17 @@ height: 30px;
 border: 1px solid gray;
 	margin-top: 420px;
 	background-color: #e6f7ff;
-
+text-decoration: none;
 	float: right;
 	width: 100px;
-	height: 30px;
+	height: 20px;
 	font-size: 10px;
 
+}
+#submit a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 div.title {
 
@@ -202,8 +287,9 @@ td.center {
 .container {
   text-align: left;
   padding-left: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 100px;
+   margin-right: 100px;
+   width: 1180px;
   background-color: #e1eaea;
 }#submit{
   margin-top: 10px;
@@ -214,6 +300,15 @@ td.center {
   background-color: #e1eaea;
   text-align: center;
 }
+.icon-container input{
+ margin-top: 10px;
+ margin-bottom: 10px;
 
+  background-color: white;
+}
+.icon-container .img{
+  width: 100px;
+  height: 50px;
+}
 /*End Ong css style*/
 

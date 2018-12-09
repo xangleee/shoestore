@@ -1,7 +1,20 @@
 
 /*Start Xang css style*/
 body {
-	background-color:#e1eaea;
+	background-color:white;
+	
+}
+
+#filter{
+	margin-top: -214px;
+	width: 130px;
+	height: 1250px;
+	margin-left: 0px;
+	background-color: #ccccff;
+}
+#filter h1{
+	margin-top: 40px;
+	text-align: center;
 }
 /*Edit the logo image (shoe image in the top menu*/
 .topNav img{
@@ -13,7 +26,7 @@ body {
 /*Edit the whole top menu*/
 
 .topNav{
-	 background-color: #ccccff;
+	 background-color: #e1eaea;
 	 padding-top: 5px;
 	 margin-left: 100px;
 	 margin-right: 100px;
@@ -23,14 +36,14 @@ body {
 .topnav a {
 	text-align: center;
 	text-decoration: none;
-	background-color: #ccccff;
+	background-color: #e1eaea;
 	color: black;
 	margin-left: 15px;
 	float: right;
 }
 /*Edit the top menu button*/
 .dropbtn {
-    background-color: #ccccff;
+    background-color: #e1eaea;
     color: black;
     font-weight: bold;
     padding: 10px;
@@ -54,7 +67,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ccccff;
+    background-color: #e1eaea;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -67,14 +80,16 @@ body {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: white}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+.dropbtn a:hover{
+	background-color: white;
+}
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: white;
 }
 /*End edit drop down menu*/
 /*Edit title*/
@@ -110,6 +125,7 @@ figure {
 	margin-bottom: 180px;
 }
 #display-shoe img{
+	
 	margin-top: 50px;
 	width: 300px;
 	height: 200px;
@@ -120,13 +136,13 @@ figure {
 	position: absolute;
 	margin-left: 400px;
 	margin-top: -470px;
-	width: 55%;
+	width: 43.6%;
 }
 
 /*Start the detail of the shoe*/
 #product-details {
 	position: absolute;
-	margin-left: 600px;
+	margin-left: 430px;
 	margin-top: -90px;
 	text-align: left;
 }
@@ -154,25 +170,24 @@ h3 {
 
 }
 #button-box button {
-	width: 170px;
-	height: 35px;
-	margin-top: 120px;
+	width: 130px;
+	height: 20px;
+	margin-top: 140px;
 }
 
 
 
 .desciption-button1 {
-	font-size: 15px;
+	font-size: 10px;
 	color: blue;
-	margin-left: 60px;
-	margin-right: 20px;
+	margin-left: 10px;
+	
 	margin-bottom: 20px;
 }
 .desciption-button2{
-	font-size: 15px;
+	font-size: 10px;
 	color: blue;
-	margin-left: 60px;
-	margin-right: 20px;
+	margin-left: 10px;
 	margin-top: 100px;
 } 
 .desciption-button a {
@@ -196,13 +211,14 @@ h3 {
 .sim-products1 {
 
 	position: absolute;
-	margin-left: 40px;
+	margin-left: 10px;
 	margin-top: 10px;
 	padding: 10px;
 	background-color: white;
-	width: 100px;
+	width: 240px;
+	height: 80px;
 }
-.sim-products1 img{
+.sim-products1 input{
 
 	padding-left: 20px;
 	width: 200px;
@@ -211,112 +227,140 @@ h3 {
 
 .sim-products1 a {
 	position: absolute;
-
-	margin-top: -150px;
+margin-left: 30px;
+	margin-top: -25px;
 }
 .sim-products2 {
 	position: absolute;
-	margin-left: 330px;
-	margin-top: 15px;
+	margin-left: 280px;
+	margin-top: 5px;
 	padding: 10px;
 	background-color: white;
-	width: 150px;
+	width: 240px;
+	height: 80px;
 }
-.sim-products2 img{
-	padding-left: 20px;
+.sim-products2 input{
+	padding-left: 5px;
 	width: 200px;
 	height: 100px;
 }
 
 .sim-products2  a {
 	position: absolute;
-
-	margin-top: -150px;
+margin-left: 60px;
+	margin-top: -20px;
 }
 .sim-products3 {
 	position: absolute;
-	margin-left: 600px;
-	margin-top: 80px;
+	margin-left: 560px;
+	margin-top: -20px;
 	padding: 10px;
 	background-color: white;
-	width: 150px;
+	width: 240px;
+	height: 80px;
 }
-.sim-products3 img{
+.sim-products3 input{
 	padding-left: 20px;
 	width: 200px;
 	height: 100px;
+	margin-top: 30px;
+	
 }
 
 .sim-products3 a {
 	position: absolute;
-
-	margin-top: -150px;
+	margin-left: 30px;
+	margin-top: -25px;
 }
 .sim-products4 {
+	
 	position: absolute;
-	margin-left: 900px;
-	margin-top: 80px;
+	margin-left: 830px;
+	margin-top: 20px;
 	padding: 10px;
 	background-color: white;
-	width: 150px;
+	width: 270px;
+	height: 80px;
 }
-.sim-products4 img{
+.sim-products4 input{
 	padding-left: 20px;
+	margin-top: -10px;
 	width: 200px;
 	height: 100px;
 }
 
 .sim-products4 a {
 	position: absolute;
-
-	margin-top: -150px;
+margin-left: 30px;
+	margin-top: -25px;
 }
 /*End edit similar product*/
 /*start edit the add wish cart button*/
 .product-button1 {
-margin-top: -130px;
+	margin-left: 40px;
+margin-top: -5px;
 width: 140px;
 
 }
 .product-button2 {
-margin-top: -150px;
+margin-left: 60px;
+margin-top: -20px;
 width: 140px;
 
 }
 .product-button3 {
-margin-top: -130px;
+	margin-left: 60px;
+margin-top: -5px;
 width: 140px;
 
 }
 .product-button4 {
-margin-top: -130px;
-width: 140px;
+	margin-left: 60px;
+margin-top: -10px;
+width: 180px;
 
 }
 /*end edit the add wish cart button*/
 /*Edit second menu*/
 .main-nav {
 	background-color: #ccccff;
-	 
+	
 	margin-left: 100px;
 	margin-right:35px;
 	margin-top: 775px;
-	padding-bottom: 5px;
+	padding-bottom: 35px;
 	padding-top: 5px;
-	padding-left: 450px;
+	padding-left: 40px;
 
 }
+.main-nav div{
+	
+	float: left;
+	margin-left: -10px;
+	width: 150px;
+	height: 30px;
+}
+.main-nav button{
+	float: left;
+	width: 150px;
+	height: 30px;
+	margin-left: 450px;
+	font-size: 10px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #ccccff;
+	
+}
 .main-nav a {
-	 cursor: pointer;
+	font-weight: bold;
 	text-decoration: none;
 	font-size: 1.25em;
 	color: black;
-	border: 1px solid yellow;
 
 }
 
 
-.main-nav a:hover{
+.main-nav button:hover{
 
 	background-color: white;
 	
@@ -324,10 +368,12 @@ width: 140px;
 .background-nav {
 	background-color: white;
 	padding: 20px;
-	height: 25px;
+	height: 30px;
 	margin-left: 50px;
 	margin-right: 50px;
 }
+
+
 
 /*End second menu*/
 /*edit the copyright*/
