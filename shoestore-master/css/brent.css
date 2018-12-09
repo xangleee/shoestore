@@ -28,48 +28,48 @@
  }
  .seller .seller-table{
  	background-color:  #e1eaea;
- 	margin-top:60px;
- 	margin-left: 100px;
- 	margin-right: 100px;
- 	margin-bottom: -730px;
- 	width: 1100px;
- 	height: 500px;
+ 	margin-top:60%;
+ 	margin-left: 100%;
+ 	margin-right: 100%;
+ 	margin-bottom: -730%;
+ 	width: 1100%;
+ 	height: 500%;
  }
  .seller .seller-table td{
 
  	border: 2px solid white;
- 	margin-bottom: 100px;
- 	height: 100px;
+ 	margin-bottom: 100%;
+ 	height: 100%;
  }
   .seller .seller-table a{
   	text-decoration: none;
   }
  .seller .seller-table img{
- 	margin-left: 100px;
- 	margin-top: 100px;
- 	width: 300px;
+ 	margin-left: 100%;
+ 	margin-top: 100%;
+ 	width: 300%;
 
  }
 
  .seller .seller-table #price{
  	float: right;
- 	font-size: 15px;
- 	margin-right: 200px;
- 	margin-top: -310px;
+ 	font-size: 15%;
+ 	margin-right: 200%;
+ 	margin-top: -310%;
  }
  .seller .seller-table p{
  	float: right;
 
- 	font-size: 20px;
- 	padding-bottom: 10px;
- 	margin-right: 200px;
- 	margin-top: 150px;
+ 	font-size: 20%;
+ 	padding-bottom: 10%;
+ 	margin-right: 200%;
+ 	margin-top: 150%;
  }
   .seller .seller-table button{
  	float: right;
- 	font-size: 15px;
- 	margin-right: 200px;
- 	margin-top: -280px;
+ 	font-size: 15%;
+ 	margin-right: 200%;
+ 	margin-top: -280%;
  }
 /*********************************************
  *End modify the image layout on Home.html*
@@ -81,18 +81,18 @@
 .men-img{
 	 background-color: white;
 
-	margin-left: 240px;
-	margin-right: 34px;
-	padding-left: 50px;
+	margin-left: 240%;
+	margin-right: 34%;
+	padding-left: 50%;
 
 }
 .men-img img{
-	margin-top: 40px;
-	margin-left: 10px;
-	margin-bottom: 20px;
+	margin-top: 40%;
+	margin-left: 10%;
+	margin-bottom: 20%;
 	float: left;
-	width: 230px;
-	height: 150px;
+	width: 230%;
+	height: 150%;
 }
 .men-img a{
 	text-decoration: none;
@@ -100,40 +100,40 @@
 }
 .men-img button{
 
-	margin-top: -30px;
-	margin-left: 100px;
+	margin-top: -30%;
+	margin-left: 100%;
 }
 .men-img p {
-	margin-left: 10px;
-	margin-top: -20px;
-	margin-bottom: 0px;
+	margin-left: 10%;
+	margin-top: -20%;
+	margin-bottom: 0%;
 	float: left;
-	width: 230px;
-	height: 60px;
+	width: 230%;
+	height: 60%;
 	text-align: center;
 }
 #product1{
-	border:  3px solid #e1eaea;
-	margin-top: 20px;
-	font-size: 15px;
+	border:  3% solid #e1eaea;
+	margin-top: 20%;
+	font-size: 15%;
 
 }
 #product2{
-	border:  3px solid #e1eaea;
-	margin-top: 20px;
-	font-size: 15px;
+	border:  3% solid #e1eaea;
+	margin-top: 20%;
+	font-size: 15%;
 
 }
 #product3{
-	border:  3px solid #e1eaea;
-	margin-top: 20px;
-	font-size: 15px;
+	border:  3% solid #e1eaea;
+	margin-top: 20%;
+	font-size: 15%;
 
 }
 #product4{
-	border:  3px solid #e1eaea;
-	margin-top: 20px;
-	font-size: 15px;
+	border:  3% solid #e1eaea;
+	margin-top: 20%;
+	font-size: 15%;
 
 }
 
