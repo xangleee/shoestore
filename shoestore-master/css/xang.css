@@ -5,41 +5,33 @@ body {
 	
 }
 
-#filter{
-	margin-top: -214px;
-	width: 130px;
-	height: 1250px;
-	margin-left: 0px;
-	background-color: #ccccff;
-}
-#filter h1{
-	margin-top: 40px;
-	text-align: center;
-}
+
 /*Edit the logo image (shoe image in the top menu*/
 .topNav img{
-	width: 90px;
-	height: 30px;
-	padding-left: 60px;
-	margin-top: 3px;
+	margin-left: 1%;
+	
+	width: 6%;
+	padding-right: 3%;
+	margin-top: 0%;
 }
 /*Edit the whole top menu*/
 
 .topNav{
-	 background-color: #e1eaea;
-	 padding-top: 5px;
-	 margin-left: 100px;
-	 margin-right: 100px;
-	 width: 1200px;
-	 height: 40px;
+ 	background-color: #e1eaea;
+	 padding-top: 1%;
+	 padding-bottom: 1%;
+	 margin-left: 5%;
+	 margin-right: 0%;
+	 width: 90%;
+	 height: 6%;
 }
 .topnav a {
 	text-align: center;
 	text-decoration: none;
 	background-color: #e1eaea;
 	color: black;
-	margin-left: 15px;
-	float: right;
+	margin-left: 5%;
+	float: right; 
 }
 /*Edit the top menu button*/
 .dropbtn {
@@ -92,292 +84,123 @@ body {
     background-color: white;
 }
 /*End edit drop down menu*/
-/*Edit title*/
-.title {
-	font-size: 3.5em;
-	padding-left: 20px;
-	margin-top: -180px;
+h3{
+	font-size: 40px;
+	border-bottom: 3px solid #e1eaea;
+	margin-left: 5%;
+	 margin-right: 0%;
+	 width: 90%;
+	 height: 10%;
 }
-/*Edit backgorund for the whole image place in the display*/
-#fig-all {
-	background-color: white;
-	margin-right: 0px;
-	margin-left: 0px;
-
-
-}
-#fig-all h3{
-	margin-left: -40px;
-	margin-right: -50px;
-	padding-left: 20px;
-}
-/*Edit figure position*/
-figure {
-	margin-top: -50px;
-	padding-left: 40px;
-	padding-right: 50px;
-}
-/*Edit shoe image in figure*/
- img {
- 	
-	margin-top: 5px;
-	margin-left: -50px;
-	margin-bottom: 180px;
-}
-#display-shoe img{
-	
-	margin-top: 50px;
-	width: 300px;
-	height: 200px;
-	margin-right: 140px;
-}
-/*descrpition of the shoe*/
-#description {
-	position: absolute;
-	margin-left: 400px;
-	margin-top: -470px;
-	width: 43.6%;
+h1{
+	font-size: 30px;
+	border-bottom: 3px solid #e1eaea;
+	margin-left: 5%;
+	 margin-right: 0%;
+	 width: 90%;
+	 height: 1%;
 }
 
-/*Start the detail of the shoe*/
-#product-details {
-	position: absolute;
-	margin-left: 430px;
-	margin-top: -90px;
-	text-align: left;
+.background img{
+	float: left;
+ 	margin-top:0%;
+ 	margin-left: 10%;
+ }
+  .background p {
+  	float: right;
+  	width: 30%;
+  	margin-top:10%;
+  	margin-right:18%; 
+  }
+.seller {
+	margin-top: 30%;
+	margin-left: 5%;
 }
-#product-details h3 {
-	margin-top: -280px;
-	margin-bottom: 5px;
-	margin-left: 0px;
-}
-/*End prpoduct details*/
+.seller h3{
+font-size: 30px;
+	border-bottom: 3px solid #e1eaea;
+	margin-left: 0%;
+	 margin-right: 0%;
+	 padding-right: 3%;
+	 width: 90%;
+	 height: 10%;	
+ }
+ .seller .seller-table{
+ 	border: 1px solid red;
+ 	border: 3px solid white;
+ 	margin-left:0%;
+ 	margin-right: 0%;
+ 	margin-bottom:0%;
+ 	width: 95%;
+ 	height: 10%;
+ }
+ .seller .seller-table td{
+background-color:  #e1eaea;
+ }
+  .seller .seller-table a{
+  	text-decoration: none;
+  }
+ .seller .seller-table img{
+ 	margin-left: 10%;
+ 	margin-top: 3%;
+ 	width: 35%
 
-/*Edit subtitle*/
-h3 {
+ }
 
-	margin-top: -15px;
-	border-bottom: 2px solid gray;
-	font-size: 2em;
-}
+ .seller .seller-table #price{
+ 	float: right;
+ 	font-size: 20px;
+ 	margin-right: 47%;
+ 	margin-top: -14%;
+
+ }
+ .seller .seller-table p{
+ float: right;
+ 	font-size: 20px;
+ 	padding-bottom: 5%;
+ 	margin-right: 20%;
+ 	margin-top: 3%;
+ }
+  .seller .seller-table button{
+ 	float: right;
+ 	font-size: 15px;
+ 	margin-right: 43%;
+ 	margin-top: -10%;
+ }
 
 
-/*Edit add button*/
-#button-box {
-
-	margin-right: 200px;
-	margin-left: 20px;
-
-}
-#button-box button {
-	width: 130px;
-	height: 20px;
-	margin-top: 140px;
-}
-
-
-
-.desciption-button1 {
-	font-size: 10px;
-	color: blue;
-	margin-left: 10px;
-	
-	margin-bottom: 20px;
-}
-.desciption-button2{
-	font-size: 10px;
-	color: blue;
-	margin-left: 10px;
-	margin-top: 100px;
-} 
-.desciption-button a {
-	text-decoration: none;
-	font-weight: bolder;
-}
-/*End edit the add button*/
-/*Start edit the similiar product*/
-.sim-products {
-	background-color: white;
-	height:330px;
-
-}
-
-.sim-products h3{
-	margin-top: -130px;
-	margin-left: -40px;
-	margin-right: -50px;
-	padding-left: 20px;
-}
-.sim-products1 {
-
-	position: absolute;
-	margin-left: 10px;
-	margin-top: 10px;
-	padding: 10px;
-	background-color: white;
-	width: 240px;
-	height: 80px;
-}
-.sim-products1 input{
-
-	padding-left: 20px;
-	width: 200px;
-	height: 100px;
-}
-
-.sim-products1 a {
-	position: absolute;
-margin-left: 30px;
-	margin-top: -25px;
-}
-.sim-products2 {
-	position: absolute;
-	margin-left: 280px;
-	margin-top: 5px;
-	padding: 10px;
-	background-color: white;
-	width: 240px;
-	height: 80px;
-}
-.sim-products2 input{
-	padding-left: 5px;
-	width: 200px;
-	height: 100px;
-}
-
-.sim-products2  a {
-	position: absolute;
-margin-left: 60px;
-	margin-top: -20px;
-}
-.sim-products3 {
-	position: absolute;
-	margin-left: 560px;
-	margin-top: -20px;
-	padding: 10px;
-	background-color: white;
-	width: 240px;
-	height: 80px;
-}
-.sim-products3 input{
-	padding-left: 20px;
-	width: 200px;
-	height: 100px;
-	margin-top: 30px;
-	
-}
-
-.sim-products3 a {
-	position: absolute;
-	margin-left: 30px;
-	margin-top: -25px;
-}
-.sim-products4 {
-	
-	position: absolute;
-	margin-left: 830px;
-	margin-top: 20px;
-	padding: 10px;
-	background-color: white;
-	width: 270px;
-	height: 80px;
-}
-.sim-products4 input{
-	padding-left: 20px;
-	margin-top: -10px;
-	width: 200px;
-	height: 100px;
-}
-
-.sim-products4 a {
-	position: absolute;
-margin-left: 30px;
-	margin-top: -25px;
-}
-/*End edit similar product*/
-/*start edit the add wish cart button*/
-.product-button1 {
-	margin-left: 40px;
-margin-top: -5px;
-width: 140px;
-
-}
-.product-button2 {
-margin-left: 60px;
-margin-top: -20px;
-width: 140px;
-
-}
-.product-button3 {
-	margin-left: 60px;
-margin-top: -5px;
-width: 140px;
-
-}
-.product-button4 {
-	margin-left: 60px;
-margin-top: -10px;
-width: 180px;
-
-}
-/*end edit the add wish cart button*/
-/*Edit second menu*/
+/*bottom menu*/
 .main-nav {
-	background-color: #ccccff;
-	
-	margin-left: 100px;
-	margin-right:35px;
-	margin-top: 775px;
-	padding-bottom: 35px;
-	padding-top: 5px;
-	padding-left: 40px;
-
+	margin-top: 0%;
+	padding-top: 1%;
+	padding-bottom: 2.5%;
+	background-color: #e1eaea;
+	margin-left: 5%;
+	 margin-right: 5%;
 }
-.main-nav div{
-	
+.main-nav button {
+
+	border: 1px solid red;
 	float: left;
-	margin-left: -10px;
-	width: 150px;
-	height: 30px;
-}
-.main-nav button{
-	float: left;
-	width: 150px;
-	height: 30px;
-	margin-left: 450px;
-	font-size: 10px;
-	text-align: center;
-	cursor: pointer;
-	background-color: #ccccff;
-	
-}
-.main-nav a {
-	font-weight: bold;
-	text-decoration: none;
-	font-size: 1.25em;
-	color: black;
+	width: 10%;
+	height: 1%;
+	  background-color: #e1eaea;
+    font-weight: bold;
+    font-size:15px;
+    border: none;
+    cursor: pointer;
 
 }
-
-
 .main-nav button:hover{
-
 	background-color: white;
-	
 }
-.background-nav {
-	background-color: white;
-	padding: 20px;
-	height: 30px;
-	margin-left: 50px;
-	margin-right: 50px;
-}
+.main-nav a{
 
-
-
-/*End second menu*/
-/*edit the copyright*/
-#credit p {
 	text-align: center;
-	color: black;
+	text-decoration: none;
+	 color: black;
+}
+
+#credit{
+	text-align: center;
 }
