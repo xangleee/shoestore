@@ -176,6 +176,9 @@ background-color:  #e1eaea;
 
 
 }
+#fig-all {
+	margin-bottom: 10%;
+}
 #fig-all h3{
 border-bottom: 3px solid #e1eaea;
 	margin-left: 2%;
@@ -226,95 +229,9 @@ border-bottom: 3px solid #e1eaea;
 	margin-left: 5%;
 }
 #header-sim {
-	
 	margin-right: 2%;
 }
 
-
-.sim-products1{
-	margin-top: 0%;
-	margin-left: 3%;
-	width: 25%;
-	height: 5%;
-}
-.sim-products1 input{
-	width: 60%;
-	margin-left: 10%;
-	
-}
-.sim-products1 a{
-	text-decoration: none;
-	color: black;
-	margin-left: 10%;
-}
-.sim-products1 button{
-	background-color: #e1eaea;
-	margin-left: 5%;
-}
-.sim-products2{
-	margin-top: -12%;
-	margin-left: 28%;
-	width: 25%;
-	height: 5%;
-}
-.sim-products2 input{
-	width: 60%;
-	margin-left: 10%;
-	
-}
-.sim-products2 a{
-	text-decoration: none;
-	color: black;
-	margin-left: 14%;
-}
-.sim-products2 button{
-	border-bottom: 1px solid red;
-	background-color: #e1eaea;
-	margin-top: -30%;
-	margin-left: 5%;
-}
-
-.sim-products3{
-	margin-top: -13%;
-	margin-left: 50%;
-	width: 25%;
-	height: 5%;
-}
-.sim-products3 input{
-	width: 60%;
-	margin-left: 10%;
-	
-}
-.sim-products3 a{
-	text-decoration: none;
-	color: black;
-	margin-left: 10%;
-}
-.sim-products3  button{
-	background-color: #e1eaea;
-	margin-left: 5%;
-}
-
-.sim-products4{
-margin-top: -15%;
-	margin-left: 70%;
-	width: 25%;
-	height: 5%;
-}
-.sim-products4 input{
-	width: 60%;
-	margin-left: 10%;
-	
-}
-.sim-products4 a{
-	text-decoration: none;
-	color: black;
-	margin-left: 10%;
-}
-.sim-products4 button{
-	background-color: #e1eaea;
-	margin-left: 5%;
-}
 /*bottom menu*/
 .main-nav {
 	margin-top: 0%;
