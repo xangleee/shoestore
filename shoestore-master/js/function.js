@@ -33,15 +33,15 @@ function addToCartArray(){
    }
    console.log("Hello");
 
-   var name = document.getElementById("shoename").value;
+   var name = document.getElementById("shoename");
    var size = document.getElementById("shoesize").value;
    var quantity = document.getElementById("quantity").value;
    var price = document.getElementById("prices").value;
 
-   var shoesStorage =  name+ "$"+
+   var shoesStorage =  menShoes[0].title+ "$"+
                       size+ "$"+
                       quantity+ "$"+
-                      price;
+                      menShoes[0].price;
 
     shoe.push(shoesStorage);
 
