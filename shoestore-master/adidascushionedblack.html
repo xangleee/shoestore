@@ -4,8 +4,23 @@
 <head>
 	<title>Adidas Mens Cushioned Black</title>
 	<link rel="stylesheet" type="text/css" href="css/xang.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
 </head>
+
+
+<script>
+		$(document).ready(function() {
+			$('#thumbBox img').on('click', changeImg);
+
+	function changeImg(e){
+		var mediumImg = (imgSrc.replace('small', 'medium'));
+		$('#imgManipulated img').attr('src', mediumImg);
+		}
+	}
+</script>
+
 <body>
 
 	<nav class="topNav">
@@ -104,10 +119,7 @@
 			</table>
 		</div>
 		
-		</figure>
-	
-	<script type="text/javascript" src="js/function.js"></script>
-	
+		</figure>	
 	<nav class="main-nav">
 		<button><a href="aboutUs.html">About Us</a> </button>
 		<button><a href="contractUs.html">Contact Us</a></button>	
