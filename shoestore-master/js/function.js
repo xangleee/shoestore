@@ -1,59 +1,20 @@
+function myFunction() {
+  // Declare variables
 
-window.addEventListener("load", new function() {
-    document.getElementById('display-table').innerHTML = loadTable();
-
-    addListeners();
-});
-
-function addListeners() {
-  document.getElementById('shoe').addEventListener("click", function(e){
-    menShoe = document.getElementById('shoe').value;
-    menShoe = menShoe.trim();
-    e.preventDefault();
-    document.getElementById('display-table').innerHTML = loadTable();
-
-  });
-}
-
-function loadTable() {
-  var ptable = "<table>";
-  ptable += getTbody();
-
-  return ptable;
-}
-
-
-function getTbody() {
-  var tBody = "<tbody>";
-
-  if (inputTitle == "") {
-
-    for (var i in menShoes) {
-      tBody += getRow(i);
-    }
-
-  } else {
-    for (var i in paintings) {
-      if (inputTitle != null && inputTitle == menShoes[i].title) {
-        tBody = getRow(i);
-        break;
-      }
+  var input = document.getElementById('myInput');
+  var filter = input.value.toUpperCase();
+  var titles = document.getElementById("title"); 
+  var  p = titles.getElementsByTagName("p");
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < p.length; i++) {
+    var a = p[i].getElementsByTagName("a")[0];
+    var txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      p[i].style.display = "";
+    } else {
+      p[i].style.display = "none";
     }
   }
-
-  tBody += "</tbody>";
-
-  return tBody;
 }
 
-function getRow(index) {
-  var tRow = "<tr>";
-  tRow += "<td><input type=\"checkbox\" name=\"index[]\" value=\""  + index + "\"/></td>";
-  tRow += "<td><img src=\"" + menShoes[index].path + "\" alt=\"" + menShoes[index].infor +  "\" class=\"thumb\"/></td>";
-  tRow += "<td><em>" + menShoes[index].title  + "</em></td>";
-  tRow += "<td>" + menShoes[index].price + "</td>";
 
-  tRow += "</tr>";
-
-  return tRow;
-}

@@ -3,7 +3,8 @@
 	<title>Men Shoes</title>
 	<link rel="stylesheet" type="text/css" href="css/xang.css">
 		<link rel="stylesheet" type="text/css" href="css/brent.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/shoeData.js"></script>
+
 </head>
 <body>
 	<nav class="topNav">
@@ -29,26 +30,13 @@
 		</div>
 		<div class="dropdown"><button class="dropbtn"><a href="home.html" >Home</a></button>
 			</div>
-			<div>
-			<form id='filter'>
-		<h1>Men</h1>
-		
-		 <input id= "shoe" type="submit" value="Men Shoe" />
-		 <br>
-		  <input id= "sock"type="submit" value="Men Sock"/>
-		   <br>
-		  <h1>Price</h1>
-		   <br>
-		   <input id= "price"type="submit" value="highest" />
-		   <br>
-		   <input id= "price"type="submit" value="lowest"/>
-	
-
-	</form>
-	</div>
+		<div>
+			<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Shoe Title">
+		</div>
 	</nav>
 	<div id="display-table">
 	<table class="men-img">
+		 <tbody id="myTable">
 		<tr>
 			<td id="product1">
 				<img src="images/shoe/menShoe/800502_01.jpg" width="200" height="200" alt="A high end shoe made with the help of Kanye West. The lightweight shoe offers quick agility with it flexable material and lightweight feel.">
@@ -108,7 +96,7 @@
 				<p id="price">$5.00 </p>
 				<button id="add9"><a href="view.html">Add to view</a></button>
 			</td>
-			<td id="product1-">
+			<td id="product10">
 				<img src="images/shoe/sock/menSock/adidasMen2.jpeg" width="200" height="200" alt="This trio of quarter socks from adidas is crafted with moisture-wicking fabric and has the ideal amount of cushioning and support for any activity.">
 				<p id="title" >Adidas Men's Cushioned Performance</p>
 				<p id="price">$4.00 </p>
@@ -153,8 +141,8 @@
 				<button id="add16"><a href="view.html">Add to view</a></button>
 			</td>
 		</tr>
+	</tbody>
 	</table>
 	</div>
-	<script type="text/javascript" src="js/function.js"></script>
 </body>
 </html>

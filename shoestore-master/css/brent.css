@@ -1,28 +1,14 @@
 /*Edit top  men and women shoes html */
-#filter{
-	
-	margin-top: -1%;
-	width: 15%;
-	height: 2990%;
-	margin-left: 0%;
-	background-color: #ccccff;
-}
-#filter h1{
-	border: 1px solid #ccccff ;
 
-	text-align: center;
+#myInput{
+	margin-top: -2.5%;
+	margin-left: 55%;
+	height: 70%;
 }
-#filter input{
-	border: 1px solid #ccccff;
-
-	margin-left: 30%;
-	margin-top: 5%;
-}
-
 .men-img{
 	
 	 background-color: white;
-	margin-left: 20%;
+	margin-left: 5%;
 	margin-right: 5%;
 
 }
