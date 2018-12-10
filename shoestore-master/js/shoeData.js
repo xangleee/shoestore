@@ -15,14 +15,14 @@ var menShoes=[
 
 			},{
 				id: "product3",
-				title:"ASCI.jpg",
+				title:"ASICS® GEL-Nimbus® 20",
 				path: "images/shoe/menShoe/ASCI.jpg",
 				price: "$55.00",
 				infor: "A smooth, comfortable ride that's 20 years in the making. Packed with our revolutionary lightweight FlyteFoam® cushioning,FluidRide® Midsole and discreet eyelet construction, the Nimbus caters to neutral runners of all levels"
 
 			},{
 				id: "product4",
-				title:"Emerica.jpg",
+				title:"Emerica Romero Laced High",
 				path: "images/shoe/menShoe/Emerica.jpg",
 				price: "$45.00",
 				infor: "Emerica Triangle Tread pattern with high-density rubber heel drag pod for maximum grip and durability, and a tongue stabilizing wing for a snug fit if you decide to grind up a rail." 

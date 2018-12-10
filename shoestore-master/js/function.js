@@ -13,7 +13,7 @@ function addToCartArray(){
    var name = document.getElementById("shoename").title;
    var size = document.getElementById("shoesize").value;
    var quantity = document.getElementById("quantity").value;
-   var price = document.getElementById("prices");
+   var price = document.getElementsByTagName("p").value;
 
 
    var shoesStorage =  name +" " +
