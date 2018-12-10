@@ -1,59 +1,23 @@
+function saveShoe(){
+  var shoes = [];
+    
+    var prices = document.querySelector("select").value
+    var shoe = menShoes[0];
 
-window.addEventListener("load", new function() {
-    document.getElementById('display-table').innerHTML = loadTable();
 
-    addListeners();
-});
-
-function addListeners() {
-  document.getElementById('shoe').addEventListener("click", function(e){
-    menShoe = document.getElementById('shoe').value;
-    menShoe = menShoe.trim();
-    e.preventDefault();
-    document.getElementById('display-table').innerHTML = loadTable();
-
-  });
+    shoes.push(shoe); 
+//store the students array in the browser local storage.
+window.localStorage.setItem("store",JSON.stringify(shoes));
 }
 
-function loadTable() {
-  var ptable = "<table>";
-  ptable += getTbody();
+function saveShoe(){
+  var shoes1 = [];
+    
 
-  return ptable;
-}
+    var shoe1 = menShoes[0];
 
 
-function getTbody() {
-  var tBody = "<tbody>";
-
-  if (inputTitle == "") {
-
-    for (var i in menShoes) {
-      tBody += getRow(i);
-    }
-
-  } else {
-    for (var i in paintings) {
-      if (inputTitle != null && inputTitle == menShoes[i].title) {
-        tBody = getRow(i);
-        break;
-      }
-    }
-  }
-
-  tBody += "</tbody>";
-
-  return tBody;
-}
-
-function getRow(index) {
-  var tRow = "<tr>";
-  tRow += "<td><input type=\"checkbox\" name=\"index[]\" value=\""  + index + "\"/></td>";
-  tRow += "<td><img src=\"" + menShoes[index].path + "\" alt=\"" + menShoes[index].infor +  "\" class=\"thumb\"/></td>";
-  tRow += "<td><em>" + menShoes[index].title  + "</em></td>";
-  tRow += "<td>" + menShoes[index].price + "</td>";
-
-  tRow += "</tr>";
-
-  return tRow;
+    shoes.push(shoe1); 
+//store the students array in the browser local storage.
+window.localStorage.setItem("store1",JSON.stringify(shoes1));
 }
