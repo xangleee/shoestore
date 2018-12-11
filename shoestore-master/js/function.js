@@ -16,9 +16,9 @@ function addToCartArray(){
    var price = document.getElementById('prices').textContent;
 
 
-   var shoesStorage =  name +" " +
-                      size + " " +
-                      quantity+ " " + "$"+
+   var shoesStorage = name +" " + "Size: " +
+                      size + " " +"Quantity: " +
+                      quantity+ " "  + "Price: "+ "$"+
                       price;
 
     shoe.push(shoesStorage);
@@ -34,12 +34,8 @@ function addToCartArray(){
 // for (var i in sList) {
   for ( var i in sList) {
    
-    var t = sList[i].name;
-    var s = " Size:" + sList[i].size;
-    var q = " Quantity:" + sList[i].quantity;
-    var p = " Price:" + sList[i].price;
-    var products = t+ s+ q + p;
-  document.getElementById("product").innerHTML = products;
+    sList[i]
+  document.getElementById("product").innerHTML = sList[i];
   }
   
 
