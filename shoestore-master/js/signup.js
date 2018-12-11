@@ -20,7 +20,7 @@ if(passInput.length<6 || passInput.length>12){
 
 var str = userInput.slice(0,1);
 if (userInput.slice(0,1) == "_" || userInput.slice(0,1) =="@"|| str.match(/[0-9]/g)!=null) {
-	alert("should not star with _, @, and Number");
+	alert("Username should not star with _, @, and Number");
 	return
 };
 
