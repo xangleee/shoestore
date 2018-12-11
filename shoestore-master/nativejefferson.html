@@ -25,7 +25,6 @@
 		<div class="dropdown">
 			<button class="dropbtn">My Account</button>
 			<div class="dropdown-content">
-			<a href="WishList.html">Wish List</a>
 			<a href="Checkout.html">Check Out</a>
 			<a href="order.html">View Order</a>
 		</div>
@@ -43,7 +42,7 @@
 			<p>By: <a href="#" target="blank">Jefferson</a></p>
 			
 			<figure id ="display-shoe">
-				<img  src = "images/shoe/womenShoe/Native.jpg"
+				<img id ="shoename" src = "images/shoe/womenShoe/Native.jpg"
 					title = "Native Shoes Jefferson 2.0 High"
 					alt="Check all the right boxes with the easy comfort and lightweight design of the Native® Shoes Jefferson 2.0 High shoe! High-top silhouette offers a classic look."
 					width="266" height="190">
@@ -52,12 +51,12 @@
 		<div id="description">
 			<p>
                     Check all the right boxes with the easy comfort and lightweight design of the Native® Shoes Jefferson 2.0 High shoe! High-top silhouette offers a classic look.			</p>
-			<p id="prices"style="color:red">$45.00</p>
+			<p id="prices"style="color:red">45</p>
 			
 		<div id="button-box">
 			
 			
-			<button class="desciption-button2">
+			<button class="desciption-button2" onClick="addToCartArray()">
 				Add to Checkout Cart
 			</button>
 		</div>
@@ -75,7 +74,7 @@
 				</tr>
 				<tr>
 					<th>Size:</th>
-					<td><select>
+					<td><select id = "shoesize">
 						<option>5</option>
 						<option>6</option>
 						<option>7</option>
@@ -88,7 +87,7 @@
 				</tr>
 				<tr>
 					<th>Quantity:</th>
-					<td><select>
+					<td><select id = "quantity">
 					<option>1</option>
 						<option>2</option>
 						<option>3</option>
@@ -96,14 +95,7 @@
 						<option>5</option>
 						</select></td>
 				</tr>
-				<tr>
-					<th>Colors	:</th>
-					<td><select>
-						<option>white</option>
-						<option>black</option>
-						
-					</select></td>
-				</tr>
+				
 			</table>
 		</div>
 		

@@ -2,15 +2,16 @@
 <!-- Shoe Store Project -->
 <html>
 <head>
-	<title>ADIDAS SUPERLITE WOMEN'S NO SHOW SOCKS</title>
+	<title>YEEZY BOOST V2 "ZEBRA"</title>
 	<link rel="stylesheet" type="text/css" href="css/xang.css">
+	
 
 </head>
 <body>
 
 	<nav class="topNav">
 		<img src="images/shoes.png">
-		<div class="dropdown"><button class="dropbtn"><a href="pageOne.html" >Logout</a></button>
+		<div class="dropdown"><button class="dropbtn"><a href="pageOne.html">Logout</a></button>
 			</div>
 		
 			
@@ -37,6 +38,7 @@
 
 	<figure id="fig-all">
 			
+			
 			<h3>ADIDAS SUPERLITE WOMEN'S NO SHOW SOCKS</h3>
 			
 			<p>By: <a href="#" target="blank">Adidas</a></p>
@@ -52,12 +54,13 @@
 			<p>
                     The Superlite no show socks from adidas flaunt the iconic tri-stripe design but are upgraded with modern technology.  Superlite construction keeps it lightweight for all day comfort.
 			</p>
-			<p id="prices"style="color:red">$5.00</p>
+
+			<label id="pricelabel">Prices: $</label>
+			<p id="prices"style="color:red">50</p>
 			
 		<div id="button-box">
 			
-			
-			<button class="desciption-button2">
+			<button class="desciption-button2" onClick="addToCartArray()">
 				Add to Checkout Cart
 			</button>
 		</div>
@@ -71,11 +74,11 @@
 				
 				<tr>
 					<th>Style:</th>
-					<td>Socks</td>
+					<td>Sneakers</td>
 				</tr>
 				<tr>
 					<th>Size:</th>
-					<td><select>
+					<td><select id = "shoesize">
 						<option>5</option>
 						<option>6</option>
 						<option>7</option>
@@ -88,7 +91,7 @@
 				</tr>
 				<tr>
 					<th>Quantity:</th>
-					<td><select>
+					<td><select id = "quantity">
 					<option>1</option>
 						<option>2</option>
 						<option>3</option>
@@ -96,24 +99,23 @@
 						<option>5</option>
 						</select></td>
 				</tr>
-				<tr>
-					<th>Colors	:</th>
-					<td><select>
-						<option>white</option>
-						<option>black</option>
-						
-					</select></td>
-				</tr>
+				
 			</table>
 		</div>
 		
 		</figure>
-		<div id="credit">
-			<p>All images are copyright to their owners. 
-			</p>
-		</div>
 	
 	<script type="text/javascript" src="js/function.js"></script>
+		
+	<nav class="main-nav">
+		<button><a href="aboutUs.html">About Us</a> </button>
+		<button><a href="contractUs.html">Contact Us</a></button>	
+	</nav>
+	<div id="credit">
+		<p>All images are copyright to their owners. 
+		</p>
+	</div>
+	
 
 </body>
 	

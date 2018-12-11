@@ -42,7 +42,7 @@
 			<p>By: <a href="#" target="blank">Asics</a></p>
 			
 			<figure id ="display-shoe">
-				<img  src = "images/shoe/womenShoe/ASCIS.jpg"
+				<img id ="shoename" src = "images/shoe/womenShoe/ASCIS.jpg"
 					title = "ASICS GEL-Quantum® 90"
 					alt="The ASICS® GEL-Quantum® 90 running shoe has a versatile look that lets you wear it for casual occasions while still providing superior support and cushioning."
 					width="266" height="190">
@@ -51,12 +51,12 @@
 		<div id="description">
 			<p>
                     The ASICS® GEL-Quantum® 90 running shoe has a versatile look that lets you wear it for casual occasions while still providing superior support and cushioning.			</p>
-			<p id="prices"style="color:red">$40.00</p>
+			<p id="prices"style="color:red">40`</p>
 			
 		<div id="button-box">
 			
 			
-			<button class="desciption-button2">
+			<button class="desciption-button2" onClick="addToCartArray()">
 				Add to Checkout Cart
 			</button>
 		</div>
@@ -74,7 +74,7 @@
 				</tr>
 				<tr>
 					<th>Size:</th>
-					<td><select>
+					<td><select id = "shoesize">
 						<option>5</option>
 						<option>6</option>
 						<option>7</option>
@@ -87,7 +87,7 @@
 				</tr>
 				<tr>
 					<th>Quantity:</th>
-					<td><select>
+					<td><select id = "quantity">
 					<option>1</option>
 						<option>2</option>
 						<option>3</option>
@@ -95,14 +95,7 @@
 						<option>5</option>
 						</select></td>
 				</tr>
-				<tr>
-					<th>Colors	:</th>
-					<td><select>
-						<option>white</option>
-						<option>black</option>
-						
-					</select></td>
-				</tr>
+				
 			</table>
 		</div>
 		
