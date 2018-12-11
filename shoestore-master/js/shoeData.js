@@ -8,26 +8,30 @@
 //set the menShoe in an array for easier table create in funciton
 var menShoe=[
 			{	title:"YEEZY BOOST V2 ZEBRA",
-				path:"shoe/menShoe/800502_01.jpg",
+				path:"images/shoe/menShoe/800502_01.jpg",
 				price: "$50.00",
+				pages:"view.html",
 				infor: "A high end shoe made with the help of Kanye West. The lightweight shoe offers quick agility with it flexable material and lightweight feel."
 
 			},{
 				title:"Nike Air Mag",
 				path: "images/shoe/menShoe/air_mag.jpg",
 				price: "$40.00",
+				pages:"nikeairmag.html",
 				infor: "Nike inspired a future vision of footwear — an individually responsive shoe that senses the wearer and adapts on its own"
 
 			},{
 				title:"ASCI.jpg",
 				path: "images/shoe/menShoe/ASCI.jpg",
 				price: "$55.00",
+				pages:"asicsgelnimbus.html",
 				infor: "A smooth, comfortable ride that's 20 years in the making.Packed with our revolutionary lightweight FlyteFoam® cushioning, FluidRide® Midsole and discreet eyelet construction, the Nimbus caters to neutral runners of all levels"
 
 			},{
 				title:"Emerica.jpg",
 				path: "images/shoe/menShoe/Emerica.jpg",
 				price: "$45.00",
+				pages:"emericaromeo.html",
 				infor: "Emerica Triangle Tread pattern with high-density rubber heel drag pod for maximum grip and durability, and a tongue stabilizing wing for a snug fit if you decide to grind up a rail." 
 
 			}]
