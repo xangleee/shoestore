@@ -1,4 +1,5 @@
 function sortTable(){
+
 for (var i in menShoe){
 var Open_table = "<table class=\"men-img\">";
 	var open_row = "<tr>";
@@ -9,7 +10,8 @@ var Open_table = "<table class=\"men-img\">";
 	var close_tr = "</tr>";
 	var	Close_table= "</table>";
 var menTable = Open_table + open_row + img + title + prices + button + close_tr +Close_table ;
-document.write(menTable);
+
+   document.write(menTable);
 }
 }
 	
