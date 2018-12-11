@@ -4,6 +4,7 @@
 }
 
 .main-wrapper img{
+  border: 1px solid red;
   width: 20%;
   margin-left: 42%;
   margin-top: 10%;
