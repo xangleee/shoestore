@@ -48,7 +48,7 @@ var total = 0;
   for (var i in sList){
       var token= sList[i].split(",");
     total += token[2] * token[3];
-    var distotal = "Total: " + total;
+    var distotal = "Total: " + "$" + total.toFixed(2);
     document.getElementById("total").innerHTML = distotal;
 }
 

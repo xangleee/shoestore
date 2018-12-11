@@ -2,15 +2,16 @@
 <!-- Shoe Store Project -->
 <html>
 <head>
-	<title>View</title>
+	<title>YEEZY BOOST V2 "ZEBRA"</title>
 	<link rel="stylesheet" type="text/css" href="css/xang.css">
+	
 
 </head>
 <body>
 
 	<nav class="topNav">
 		<img src="images/shoes.png">
-		<div class="dropdown"><button class="dropbtn"><a href="pageOne.html" >Logout</a></button>
+		<div class="dropdown"><button class="dropbtn"><a href="pageOne.html">Logout</a></button>
 			</div>
 		
 			
@@ -38,12 +39,12 @@
 
 	<figure id="fig-all">
 			
-			<h3>Nike Air Mag</h3>
+			<h3 >YEEZY BOOST V2 "ZEBRA"</h3>
 			
-			<p>By: <a href="#" target="blank">Nike</a></p>
+			<p>By: <a href="#" target="blank">Adidas</a></p>
 			
 			<figure id ="display-shoe">
-				<img  src = "images/shoe/menShoe/air_mag.jpg"
+				<img id ="shoename" src = "images/shoe/menShoe/air_mag.jpg"
 					title = "Nike Air Mag"
 					alt="A high end shoe made with the help of Kanye West. The lightweight 
 				shoe offers quick agility with it flexable material and lightweight feel."
@@ -54,14 +55,11 @@
 			<p>
 				The Nike MAG is a limited edition shoe created by Nike Inc. It is a replica of a shoe featured in Back to the Future Part II. The Nike Mag was originally released for sale in 2011 and again in 2016. Both launches were extremely limited in quantity.
 			</p>
-			<p id="prices"style="color:red">$40.00</p>
-			
+			<p id="prices"style="color:red">40</p>
+
 		<div id="button-box">
-			<button class="desciption-button1">
-				Add to Wish List
-			</button>
 			
-			<button class="desciption-button2">
+			<button class="desciption-button2" onClick="addToCartArray()">
 				Add to Checkout Cart
 			</button>
 		</div>
@@ -79,7 +77,7 @@
 				</tr>
 				<tr>
 					<th>Size:</th>
-					<td><select>
+					<td><select id = "shoesize">
 						<option>5</option>
 						<option>6</option>
 						<option>7</option>
@@ -92,7 +90,7 @@
 				</tr>
 				<tr>
 					<th>Quantity:</th>
-					<td><select>
+					<td><select id = "quantity">
 					<option>1</option>
 						<option>2</option>
 						<option>3</option>
@@ -100,21 +98,14 @@
 						<option>5</option>
 						</select></td>
 				</tr>
-				<tr>
-					<th>Colors	:</th>
-					<td><select>
-						<option>white</option>
-						<option>black</option>
-						
-					</select></td>
-				</tr>
+				
 			</table>
 		</div>
 		
 		</figure>
 	
 	<script type="text/javascript" src="js/function.js"></script>
-	
+		
 	<nav class="main-nav">
 		<button><a href="aboutUs.html">About Us</a> </button>
 		<button><a href="contractUs.html">Contact Us</a></button>	
@@ -123,6 +114,7 @@
 		<p>All images are copyright to their owners. 
 		</p>
 	</div>
+	
 
 </body>
 	
