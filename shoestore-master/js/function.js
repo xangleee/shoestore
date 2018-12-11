@@ -32,7 +32,7 @@ function addToCartArray(){
     var titles= (token[0]);
     var sizes = " Size: " +(token[1]);
     var quantity = (" Quantity: " + token[2]);
-    var prices = (" Price: $" + token[3] + "<br>"+ "<br>");
+    var prices = (" Price: " + token[3] + "<br>"+ "<br>");
     var all = titles + sizes+ quantity + prices;
 
     shoeList += all;
