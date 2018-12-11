@@ -1,4 +1,3 @@
-
 /*Start Xang css style*/
 body {
 	background-color:white;
@@ -282,7 +281,7 @@ background-color: #e1eaea;
 	text-align: center;
 }
 .main-nav1 {
-	margin-top: 40%;
+	margin-top: 5%;
 	padding-top: 1%;
 	padding-bottom: 2.5%;
 	background-color: #e1eaea;
@@ -314,4 +313,5 @@ background-color: #e1eaea;
 
 #credit1{
 	text-align: center;
+}
 }
