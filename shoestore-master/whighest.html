@@ -2,13 +2,16 @@
 <head>
 	<title>Women Shoes and Socks</title>
 	<link rel="stylesheet" type="text/css" href="css/xang.css">
-	<link rel="stylesheet" type="text/css" href="css/brent.css">
+		<link rel="stylesheet" type="text/css" href="css/brent.css">
+		<script type="text/javascript" src="js/filter.js"></script>
+		<script type="text/javascript" src="js/shoeData.js"></script>
 </head>
 <body>
 	<nav class="topNav">
 		<img src="images/shoes.png">
 		<div class="dropdown"><button class="dropbtn"><a href="pageOne.html" >Logout</a></button>
 			</div>
+			
 
 		<div class="dropdown">
 			<button class="dropbtn">Category</button>
@@ -17,7 +20,7 @@
 			<a href="Womenshoe.html">Women</a>
 		</div>
 		</div>
-
+		
 		<div class="dropdown"><button class="dropbtn">My Account</button>
 			<div class="dropdown-content">
 			<a href="Checkout.html">Check Out</a>
@@ -26,83 +29,88 @@
 		</div>
 		<div class="dropdown"><button class="dropbtn"><a href="home.html" >Home</a></button>
 			</div>
-		<div>
-			<form id='filter'>
+			<div>
+			<form id='filter1'>
 		<h1>Women</h1>
-		
-			<button id= "shoe" ><a href="womenShoes.html">Men Shoe</a></button>
+		<button id= "shoe" ><a href="womenShoes.html">Women Shoe</a></button>
 		 <br>
-		 <button id= "shoe" ><a href="womenSocks.html">Men Sock</a></button>
+		 <button id= "shoe" ><a href="womenSocks.html">Women Sock</a></button>
 		    <br>
 		     <h1>Price</h1>
 		   <br>
 		   <button id= "price"><a href="whighest.html">Highest</a></button>
 		   <br>
 		   <button id= "price"><a href="wlowest.html">Lowest</a></button>
-	
 
 	</form>
 	</div>
 	</nav>
-	<form>
+	<div id="display-table">
 	<table class="men-img">
 		<tr>
+			<tr>
+			
 			<td id="product1">
 				<img src="images/shoe/womenShoe/11930_BKW.jpg" width="200" height="200"  alt="Classic design and lasting comfort is exactly what you'll find in the SKECHERS® D'Lites Biggest Fan athletic-inspired sneaker." >
 				<p>SKECHERS D'Lites - Biggest Fan</p>
 				 <p id="price">$50.00 </p>
 				<button><a href="sketchersdlites.html">Add to View</a></button>
 			</td>
+		
 			<td id="product2">
-				<img src="images/shoe/womenShoe/ASCIS.jpg" width="200" height="200"
-				 alt="The ASICS® GEL-Quantum® 90 running shoe has a versatile look that lets you wear it for casual occasions while still providing superior support and cushioning to keep you moving at your best mile after mile." >
-				 <p id="title">ASICS GEL-Quantum® 90</p>
-				 <p id="price">$40.00</p>
-				<button><a href="asicsgelquantum.html">Add to View</a></button>
-			</td>
-			<td id="product3">
 				<img src="images/shoe/womenShoe/Dansko.jpg" width="200" height="200" 
 				 alt="Channel those athleisure vibes to the fullest with the Dansko® Adrianne sneaker. Breathable fabric mesh upper. Lace-up construction with loop eyelets.">
 				 <p>Dansko Adrianne</p>
 				 <p id="price">$55.00</p>
 				<button><a href="DanskoAdrianne.html">Add to View</a></button>
 			</td>
-			<td id="product4">
+				<td id="product3">
 				<img src="images/shoe/womenShoe/Native.jpg" width="200" height="200" alt="Check all the right boxes with the easy comfort and lightweight design of the Native® Shoes Jefferson 2.0 High shoe! High-top silhouette offers a classic look.">
 				<p>Native Shoes Jefferson 2.0 High</p>
 				<p id="price">$45.00</p>
 				<button><a href="nativejefferson.html">Add to View</a></button>
 			</td>
+				<td id="product4">
+				<img src="images/shoe/womenShoe/ASCIS.jpg" width="200" height="200"
+				 alt="The ASICS® GEL-Quantum® 90 running shoe has a versatile look that lets you wear it for casual occasions while still providing superior support and cushioning to keep you moving at your best mile after mile." >
+				 <p id="title">ASICS GEL-Quantum® 90</p>
+				 <p id="price">$40.00</p>
+				<button><a href="asicsgelquantum.html">Add to View</a></button>
+			</td>
+		
 		</tr>
-		<tr>
 			<td id="product5">
-				<img src="images/shoe/sock/womenSock/adidasSuperlite.jpeg" width="200" height="200" alt="The Superlite no show socks from adidas flaunt the iconic tri-stripe design but are upgraded with modern technology. Climalite yarns wick moisture while the superlite construction keeps it lightweight for all day comfort.">
-				<p>ADIDAS SUPERLITE WOMEN'S NO SHOW SOCKS</p>
-				<p id="price">$4.00 </p>
- 				<button><a href="adidassuperlite.html">Add to View</a></button>
-			</td>
-			<td id="product6">
-				<img src="images/shoe/sock/womenSock/hueHoiserywomen.jpeg" width="200" height="200" alt="Keep your feet feeling good all through your workout with these HUE Sport No Show Liner socks. With this great 6 pack of comfortable sport socks you can keep your workout going all week long!">
-				<p>HUE HOSIERY WOMEN'S NO SHOW LINERS</p>
-				<p id="price">$4.00 </p>
-				<button><a href="huehosiery.html">Add to View</a></button>
-			</td>
-			<td id="product7">
 				<img src="images/shoe/sock/womenSock/lemonStriped.jpeg" width="200" height="200" alt="Feel extra cozy with the Striped no show socks from Lemon. Featuring an ultra-soft construction and classic stripe design, these low-tops socks will become your new favorite.">
 				<p>LEMON STRIPED WOMEN'S NO SHOW SOCKS</p>
 				<p id="price">$5.00 </p>
 			<button><a href="lemonstriped.html">Add to View</a></button>
 			</td>
-			<td id="product8">
+			
+			<td id="product6">
 				<img src="images/shoe/sock/womenSock/newBalancecoreCotton.jpeg" width="200" height="200" alt="Stay dry while working up a sweat in the Cotton Core no show socks from New Balance! This 3 pack of socks feature cushioning and support to help you tackle whatever the day brings you in ultimate comfort.">
 				<p>NEW BALANCE CORE COTTON WOMEN'S NO SHOW SOCKS </p>
  					<p id="price">$4.00 </p>
  				<button><a href="newbalancecore.html">Add to View</a></button>
 			</td>
+			<td id="product7">
+				<img src="images/shoe/sock/womenSock/adidasSuperlite.jpeg" width="200" height="200" alt="The Superlite no show socks from adidas flaunt the iconic tri-stripe design but are upgraded with modern technology. Climalite yarns wick moisture while the superlite construction keeps it lightweight for all day comfort.">
+				<p>ADIDAS SUPERLITE WOMEN'S NO SHOW SOCKS</p>
+				<p id="price">$4.00 </p>
+ 				<button><a href="adidassuperlite.html">Add to View</a></button>
+			</td>
+			<td id="product8">
+				<img src="images/shoe/sock/womenSock/hueHoiserywomen.jpeg" width="200" height="200" alt="Keep your feet feeling good all through your workout with these HUE Sport No Show Liner socks. With this great 6 pack of comfortable sport socks you can keep your workout going all week long!">
+				<p>HUE HOSIERY WOMEN'S NO SHOW LINERS</p>
+				<p id="price">$4.00 </p>
+				<button><a href="huehosiery.html">Add to View</a></button>
+			</td>
+		
 		</tr>
+				
 	</table>
-</form>
+	</div>
 	
+
 	<nav class="main-nav1">
 		<button><a href="aboutUs.html">About Us</a> </button>
 		<button><a href="contractUs.html">Contact Us</a></button>	
@@ -111,6 +119,6 @@
 		<p>All images are copyright to their owners. 
 		</p>
 	</div>
-	
 </body>
 </html>
+
