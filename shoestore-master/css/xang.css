@@ -3,7 +3,9 @@ body {
 	background-color:white;
 	
 }
-
+#paragraph {
+ margin-left: 6%;
+}
 
 /*Edit the logo image (shoe image in the top menu*/
 .topNav img{
