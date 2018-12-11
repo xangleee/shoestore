@@ -192,6 +192,9 @@ border-bottom: 3px solid #e1eaea;
 #fig-all p{
 	margin-left: 5%;
 }
+#description {
+	position: relative;
+}
 #description p{
 
 	margin-top: -20%;
@@ -200,8 +203,16 @@ border-bottom: 3px solid #e1eaea;
 	width: 60%;
 	height: 30%;
 }
-#description #prices{
+#description label{
+	color:red;
+	position: absolute;
+	margin-left: 35%;
 	margin-top:-16%;
+}
+#description #prices{
+	position: absolute;
+	margin-top:-16.1%;
+	margin-left: 39.5%;
 }
 
 #button-box{
@@ -230,6 +241,9 @@ border-bottom: 3px solid #e1eaea;
 }
 #header-sim {
 	margin-right: 2%;
+}
+#productdisplay{
+background-color: #e1eaea;
 }
 
 /*bottom menu*/

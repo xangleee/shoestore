@@ -33,7 +33,7 @@
    
       <p id="product"></span></p>
 
-      <p class="p">Total <span class="price" style="color:black"><b>$30</b></span></p>
+      <p id="total">Total: </p>
       <button onClick="Clear()"><a href="Checkout.html">Clear</a></button>
     </div>
 <div class="row">
@@ -67,10 +67,10 @@
             <label for="fname">Accepted Cards</label>
             <div class="icon-container">
               <form method='#' action='#'> 
-               <label>Amex Card</label><input type="checkbox">
-               <label>Discover Card</label><input type="checkbox">
-              <label>Master Card</label> <input type="checkbox"  >
-               <label>Visa Card</label><input type="checkbox" >
+               <label>Amex Card</label><input value="Amex"type="checkbox" id="amex">
+               <label>Discover Card</label><input value="Discover" type="checkbox" id="discover">
+              <label>Master Card</label> <input value="Master" type="checkbox" id="master" >
+               <label>Visa Card</label><input value="Visa" type="checkbox" id="visa" >
              
                </form>
             </div>
@@ -99,7 +99,7 @@
         </label>
 
         <br>
-       <button id = "submit" type="submit" name="submit"><a href="home.html">Check out</a>
+       <button onClick = "addToCartArray1()"id = "submit" type="submit" name="submit"><a href="home.html">Check out</a>
        </button>
        </div>
       </form>
