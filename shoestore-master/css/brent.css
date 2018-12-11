@@ -12,13 +12,17 @@
 
 	text-align: center;
 }
-#filter input{
-	border: 1px solid #ccccff;
-
+#filter button{
 	margin-left: 30%;
 	margin-top: 5%;
 }
-
+#shoe{
+	background-color: none;
+}
+#shoe a{
+	background-color: none;
+	text-decoration: none;
+}
 .men-img{
 	
 	 background-color: white;
